@@ -38,28 +38,37 @@ var createDots = function(){
     dotid = window.requestAnimationFrame(createDots);
     //console.log(id);
 };
+var slope = Math.random();
 
 var dvdgo = function(){
     ctx.clearRect(0,0,500,500);
-    if (dvdy <=0)
-	down = true;
-    else if (dvdy >= 400)
-	down = false;
+    if (dvdy <=0){
+	slope = Math.random();
+	down = true; 
+    }
+    else if (dvdy >= 400){
+	slope = Math.random();
+	down = false; 
+    }
 
-    if (dvdx <=0)
-	right = true;
-    else if (dvdx >= 400)
+    if (dvdx <=0){
+	slope = Math.random();
+	right = true; 
+    }
+    else if (dvdx >= 400){
+	slope = Math.random();
 	right = false;
+    }
     
     if (down)
-	dvdy += Math.random() + 1;
+	dvdy += 1;
     else
-	dvdy -= Math.random() + 1;
+	dvdy -= 1;
 
     if (right)
-	dvdx += Math.random() + 1;
+	dvdx += slope;
     else
-	dvdx -= Math.random() + 1;
+	dvdx -= slope;
 
     ctx.beginPath();
     ctx.drawImage(logo, dvdx, dvdy, 100, 100);
