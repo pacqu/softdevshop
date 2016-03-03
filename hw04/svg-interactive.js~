@@ -1,5 +1,25 @@
 var pic = document.getElementById("vimage");
 
+//init for growing dot 
+var c = document.createElementNS("http://www.w3.org/2000/svg","circle");
+c.setAttribute("cx", "250");
+c.setAttribute("cy", "250");
+c.setAttribute("r", "0");
+c.setAttribute("stroke", "black");
+c.setAttribute("fill", "yellow");
+pic.appendChild(c);
+var radius = 0;
+var grow = true;
+
+var intervalID;
+
+var logo = new Image();
+logo.src = "logo_dvd.jpg";
+var dvdx = Math.random() * 400;
+var dvdy = Math.random() * 400;
+var down = true;
+var right = true;
+
 var change = function(e){
     e.preventDefault();
     this.setAttribute("fill", "green");
@@ -7,18 +27,46 @@ var change = function(e){
 
 var drawDot = function(x, y){
     var c = document.createElementNS("http://www.w3.org/2000/svg","circle");
-    c.setAttribute("cx", 250);
-    c.setAttribute("cx", 250);
+    c.setAttribute("cx", x);
+    c.setAttribute("cy", y);
     c.setAttribute("r", 10);
     c.setAttribute("stroke", "black");
-    c.setAttribute("click", "yellow");
+    c.setAttribute("fill", "yellow");
     c.addEventListener("click",change);
     pic.appendChild(c);
 };
 
+var growDots = function(){
+    var animateCode = function(){
+	c = document.getElementsByTagName("circle")[0];
+	//increment or decrement radius
+	if (grow)
+	    radius += 1;
+	else
+	    radius -= 1;
+	if (radius >= 250)
+	    grow = false;
+	else if (radius <= 0)
+	    grow = true;
+	c.setAttribute("r", radius.toString());
+    }
+    
+    intervalID = window.setInterval(animateCode,16);
+}
+
+
 var clicked = function(e){
-    if (e.toElement == this){
+    if (e.toElement == t1his){
 	drawDot(e.offsetX, e.offsetY);
     }
 };
-pic.addEventListener("click", clicked);
+var stop = function(){
+    window.clearInterval(intervalID);
+};
+
+var str = document.getElementById("start");
+var stp = document.getElementById("stop");
+
+str.addEventListener("click",growDots);
+stp.addEventListener("click",stop);
+//pic.addEventListener("click", clicked);
