@@ -15,7 +15,7 @@ var dvdx = Math.random() * 400;
 var dvdy = Math.random() * 400;
 
 var d = document.createElementNS("http://www.w3.org/2000/svg","image");
-d.setAttribute("xlink:href","DVD_logo.svg");
+d.setAttribute("xlink:href","logo_dvd.jpg");
 d.setAttribute("x",(dvdx).toString());
 d.setAttribute("y",(dvdy).toString());
 d.setAttribute("height","100");
