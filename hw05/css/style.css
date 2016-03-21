@@ -19,7 +19,7 @@ div {
 
 #allotted {
       width: 49.5%;
-      height: 1100px;
+      height: 1150px;
       float: left;
       background-color: #FFA3A3;
       color: #B03838;
@@ -30,7 +30,7 @@ div {
 #unallotted {
        width:49.5%;
        float: right;
-       height: 1100px;
+       height: 1150px;
        background-color: #B03838;
        color: #FFA3A3;
        padding-top: 10px;
@@ -54,7 +54,7 @@ div {
     height: 20px;
     margin-bottom: 8px;
     padding-top:3px;
-    padding-right:3px;
+    padding-left:3px;
     text-align: left;
     color: #B03838;
 }

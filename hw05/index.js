@@ -54,3 +54,11 @@ d3.select("#unallotted")
     .style("font-size","8px")
     .text(function(d){
             return d; });
+
+asum = usum = 0;
+for (i = 0; i < alot.length; i++)
+    asum += alot[i];
+for (j = 0; j < ulot.length; j++)
+    usum += ulot[j];
+console.log(asum);
+console.log(usum);
