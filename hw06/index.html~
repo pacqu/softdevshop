@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <title>Republos</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>the <img src="gop.png" height="4%"></img> in the room</h1>
+      <h3>republican delegate allotment</h3>
+    </div>
+    <div id="container">
+      <div id="allotted">
+      <h2> allotted delegates </h2>
+      <h3>total: 1480 </h3>
+      </div>
+      <div id="unallotted">
+      <h2>unallotted delegates</h2>
+      <h3>total: 992 </h3>
+      </div>
+    </div>
+  </body>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="index.js"></script>
+<html>

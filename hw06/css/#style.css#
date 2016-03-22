@@ -1,0 +1,83 @@
+#container {
+	      max-width: 100%;   
+	         margin: auto;
+}
+body {
+     font-family: 'Raleway', sans-serif;
+} 
+div {
+    text-align: center;
+    border-radius: 25px;
+}
+
+#header{
+	max-width: 100%;
+	height = 100px;
+	background-color: white;
+	color: #5F0000;
+}
+
+#allotted {
+      width: 49.5%;
+      height: 1150px;
+      float: left;
+      /*background-color: #FFA3A3;
+      color: #B03838;*/
+      padding-top: 10px;
+      padding-left: 5px;
+}
+
+#unallotted {
+       width:49.5%;
+       float: right;
+       height: 1150px;
+       /*
+       background-color: #B03838;
+       color: #FFA3A3; */
+       padding-top: 10px;
+       padding-right: 5px;
+}      
+
+.rabar {
+    background-color: #B03838;
+    height: 20px;
+    margin-bottom: 8px;
+    padding-top:3px;
+    padding-right: 3px;
+    text-align: right;
+    color: #FFA3A3;
+}
+
+.rubar {
+    float: right;
+    clear: right;
+    background-color: #FFA3A3;
+    height: 20px;
+    margin-bottom: 8px;
+    padding-top:3px;
+    padding-left:3px;
+    text-align: left;
+    color: #B03838;
+}
+
+.dabar {
+    background-color: #0A296F;
+    height: 20px;
+    margin-bottom: 8px;
+    padding-top:3px;
+    padding-right: 3px;
+    text-align: right;
+    color: #6684C8;
+}
+
+.dubar {
+    float: right;
+    clear: right;
+    background-color: #6684C8;
+    height: 20px;
+    margin-bottom: 8px;
+    padding-top:3px;
+    padding-left:3px;
+    text-align: left;
+    color: #0A296F;
+}
