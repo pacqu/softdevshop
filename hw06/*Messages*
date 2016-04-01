@@ -1,0 +1,313 @@
+Loading /Users/Chance/.emacs.d/myinit.el (source)...
+Cannot load spacemacs-theme
+Debug (ox-odt): Searching for OpenDocument styles files...
+Debug (ox-odt): Trying /usr/share/emacs/etc/org/styles/...
+Debug (ox-odt): Trying /Applications/Emacs.app/Contents/Resources/etc/styles/...
+Debug (ox-odt): Trying /Users/Chance/.emacs.d/etc/styles/...
+Debug (ox-odt): Trying /Users/Chance/.emacs.d/elpa/org-20160328/etc/styles/...
+Debug (ox-odt): Using styles under /Users/Chance/.emacs.d/elpa/org-20160328/etc/styles/
+Debug (ox-odt): Searching for OpenDocument schema files...
+Debug (ox-odt): Trying /usr/share/emacs/etc/org/schema/...
+Debug (ox-odt): Trying /Applications/Emacs.app/Contents/Resources/etc/schema/...
+Debug (ox-odt): No OpenDocument schema files installed
+[yas] Prepared just-in-time loading for /Users/Chance/.emacs.d/elpa/yasnippet-0.8.0/snippets
+[yas] Prepared just-in-time loading for ~/.emacs.d/snippets
+[yas] Reloaded everything (snippets will load just-in-time)....
+Loading /Users/Chance/.emacs.d/myinit.el (source)...done
+Loaded /Users/Chance/.emacs.d/myinit.el
+Loading /Users/Chance/.emacs.d/elpa/magit-2.4.1/magit-version.el (source)...done
+[yas] Loading for `emacs-lisp-mode', just-in-time: (yas--load-directory-1 /Users/Chance/.emacs.d/elpa/yasnippet-0.8.0/snippets/emacs-lisp-mode (quote emacs-lisp-mode) (quote (text-mode)))!
+[yas] Loading compiled snippets from /Users/Chance/.emacs.d/elpa/yasnippet-0.8.0/snippets/emacs-lisp-mode
+[yas] Loading for `text-mode', just-in-time: (yas--load-directory-1 /Users/Chance/.emacs.d/elpa/yasnippet-0.8.0/snippets/text-mode (quote text-mode) (quote nil))!
+[yas] Loading compiled snippets from /Users/Chance/.emacs.d/elpa/yasnippet-0.8.0/snippets/text-mode
+For information about GNU Emacs and the GNU system, type C-h C-a.
+Can't guess python-indent-offset, using defaults: 4
+[yas] Loading for `python-mode', just-in-time: (yas--load-directory-1 /Users/Chance/.emacs.d/snippets/python-mode (quote python-mode) (quote nil))!
+[yas] Loading compiled snippets from /Users/Chance/.emacs.d/snippets/python-mode
+[yas] Loading for `python-mode', just-in-time: (yas--load-directory-1 /Users/Chance/.emacs.d/elpa/yasnippet-0.8.0/snippets/python-mode (quote python-mode) (quote (text-mode)))!
+[yas] Loading compiled snippets from /Users/Chance/.emacs.d/elpa/yasnippet-0.8.0/snippets/python-mode
+Beginning of buffer
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+user-error: Minibuffer window is not active
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+Auto-saving...
+auto-complete error: (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+Saving file /Users/Chance/softdev/softdevshop/hw07/listcomp.py...
+Wrote /Users/Chance/softdev/softdevshop/hw07/listcomp.py
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+)
+(No changes need to be saved)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+ls does not support --dired; see `dired-use-ls-dired' for more details.
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+Mark saved where search started
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 210, in jedi_epc_server
+    import_jedi()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 250, in import_jedi
+    import jedi.parsing
+ImportError: No module named parsing
+)
+Auto-saving...
+Saving file /Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py...
+Wrote /Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+<wheel-right> is undefined
+byte-code: Beginning of buffer
+<wheel-right> is undefined
+byte-code: Beginning of buffer [4 times]
+<wheel-right> is undefined
+byte-code: Beginning of buffer [38 times]
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+<wheel-right> is undefined
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+byte-code: Beginning of buffer [12 times]
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+<wheel-left> is undefined [4 times]
+<wheel-right> is undefined
+byte-code: Beginning of buffer [11 times]
+<wheel-right> is undefined
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+deferred error : (error Server may raise an error : Traceback (most recent call last):
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 302, in <module>
+    main()
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 298, in main
+    jedi_epc_server(**vars(ns))
+  File "/Users/Chance/.emacs.d/elpa/jedi-0.1.2/jediepcserver.py", line 211, in jedi_epc_server
+    import epc.server
+ImportError: No module named epc.server
+)
+<wheel-right> is undefined
+byte-code: Beginning of buffer [2 times]

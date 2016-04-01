@@ -128,6 +128,9 @@ var dem_allotted = function dem_allotted() {
     .style("font-size","12px")
     .text(function(d){
             return d; });
+    d3.select("#allotted")
+    .selectAll("div")
+    .transition();
 };
 
 var dem_unallotted = function dem_unallotted() {
@@ -155,6 +158,9 @@ var dem_unallotted = function dem_unallotted() {
     .style("font-size","6px")
     .text(function(d){
             return d; });
+    d3.select("#unallotted")
+    .selectAll("div")
+    .transition();
 };
 
 repub_allotted();
