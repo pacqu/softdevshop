@@ -39,6 +39,7 @@ def repeat(word):
 
 #print repeat("hi")
 #print repeat("hi")(3)
+
 '''
 def r1(count):
     return repeat("hello")(count)
