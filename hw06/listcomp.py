@@ -71,3 +71,22 @@ print passStrength("Hi1")
 print passStrength("Thisrandpass4")
 print passStrength("MaybeThisHigh33*&")
 
+lc = list(string.ascii_lowercase)
+uc = list(string.ascii_uppercase)
+nums = ['0','1','2','3','4','5','6','7','8','9']
+spec = ['.','?','!','&','#',',',';',':','-','_','*']
+
+def sCheck(p):
+    l =  [ 1 if x in lc else
+           2 if x in uc else
+           3 if x in nums else
+           0 for x in p]
+
+    return 1 in l and 2 in l and 3 in l
+
+def sRate(p):
+        l =  [ 1 if x in lc else
+           2 if x in uc else
+           3 if x in nums else
+           4 if x in spec else
+               0 for x in p]
