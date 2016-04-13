@@ -10,7 +10,7 @@ def foo(x, y, s ):
 closure = wrapper(foo)
 print closure( -2, 3, 'hello' )
 '''
-'''
+
 #a simple example of applying multiple decorators
 def make_bold(fn):
     return lambda : "<b>" + fn() + "</b>"
@@ -26,8 +26,9 @@ def hello():
 helloHTML = hello()
 
 print helloHTML
-'''
+
 import time
+
 
 def getFuncInfo(fn):
     def args(*arg):
@@ -35,12 +36,14 @@ def getFuncInfo(fn):
         return fn(*arg)
     return args
 
+
 def getFuncTime(fn):
     start = time.time()
     def args(*arg):
         return fn(*arg)
     print "function runtime: " + str(time.time() - start)
     return args
+
 
 @getFuncTime
 @getFuncInfo
