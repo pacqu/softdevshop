@@ -1,4 +1,4 @@
-* Soft Dev
+* Software Development
 ** 4/4/16 - Aim: Feel the Bind, Part Deux
 A python function has an inner function, does this constitute a closure?
 Nah
@@ -86,3 +86,17 @@ A Python decorator allows you to transparently wrap functionality
    All lower, lower half;
    Pivot is in final resting po
 3. qsort
+** 4/13/16 - "Memorization"[:4] + "Memorization"[5:] 
+fib(5) -> fib(3) + fib(4) -> (fib(1) + fib(2)) + (fib(3) + fib(2)) -> ...
+Dynamic Programming:
+meaks of solving a complex problem by solving its component subproblems just once
+and storing their solutions
+
+Memoization:
+Technique of storing solutions to subproblems to avoid recomputation
+
+or
+
+Use of caches to trerieve previously computed values to reduce time
+complexity of algorithms
+** 4/13/16 
